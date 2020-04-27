@@ -1,0 +1,103 @@
+    1  git --version
+    2  git config --global user.name "Steve Coleman"
+    3  git config --global user.email "steven.r.coleman@gmail.com"
+    4  ping github.com
+    5  cd ~/Desktop/
+    6  pwd
+    7  mkdir 2020-04-27-git-steve
+    8  ls
+    9  cd 2020-04-27-git-steve/
+   10  ll
+   11  git init 
+   12  ls -al
+   13  ls -al .git
+   14  git status
+   15  vim README.md
+   16  ls -al
+   17  git status
+   18  git add README.md 
+   19  git status
+   20  git commit
+   21  git status
+   22  vim README.md 
+   23  git status
+   24  git add README.md 
+   25  git status
+   26  git commit -m "added title to readme"
+   27  git status
+   28  git log
+   29  git diff README.md
+   30  git diff HEAD~2 README.md
+   31  vim README.md 
+   32  git status
+   33  git history
+   34  git log --online
+   35  git log --oneline
+   36  git log
+   37  cat README.md 
+   38  git diff
+   39  git diff README.md
+   40  git diff --staged README.md
+   41  git status
+   42  git commit -m "defined log and diff"
+   43  git status
+   44  git add README.md 
+   45  git commit -m "defined log and diff"
+   46  git status
+   47  git restore README.md
+   48  touch ignore_me.txt
+   49  git status
+   50  vim .gitignore
+   51  git status
+   52  git status
+   53  cat README.md 
+   54  git status
+   55  git remote add origin https://github.com/daddyocruzer/2020-04-27-git.git
+   56  git remote -v
+   57  git push origin master
+   58  git config --global http.proxy  http://www-proxy-us.boeing.com:31060
+   59  git push origin master
+   60  vim README.md 
+   61  git status
+   62  git add README.md 
+   63  git commit -m "Updated Readme notes"
+   64  git status
+   65  history
+   66  git log
+   67  git push origin master
+   68  vim README.md 
+   69  git pull origin master
+   70  git status
+   71  git add README.md 
+   72  git status
+   73  git commit README.md 
+   74  git status
+   75  git push origin master
+   76  git pull origin master
+   77  cat README.md 
+   78  git status
+   79  git add README.md 
+   80  git commit README.md 
+   81  history
+   82  git push origin master 
+   83  git pull origin master 
+   84  git commit README.md 
+   85  git stash
+   86  git status
+   87  git pull
+   88  git status
+   89  vim README.md 
+   90  git add README.md 
+   91  git commit README.md 
+   92  git push origin master 
+   93  git pull origin master 
+   94  git pull origin master 
+   95  git push origin master 
+   96  git push origin master 
+   97  vim README.md 
+   98  git add README.md 
+   99  git commit README.md 
+  100  git commit 
+  101  git push origin master 
+  102  pwd
+  103  history > history.txt
