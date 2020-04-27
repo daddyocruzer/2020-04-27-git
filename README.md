@@ -8,3 +8,4 @@
   - git remote add origin <URL> add a remote
 - git push origin master : to push th emaster branch
 - you may edit the same file on the same line in different places
+- TBD
